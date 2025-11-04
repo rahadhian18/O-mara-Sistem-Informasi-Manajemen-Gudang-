@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Start your development with a Dashboard for Bootstrap 4.">
   <meta name="author" content="Creative Tim">
-  <title>O'MARA Clothing Store</title>
+  <title>DAZZLE HEAVEN</title>
   <!-- Favicon -->
   <link rel="icon" href="<?php echo base_url('assets/img/brand/favicon.png') ?>" type="image/png">
   <link href="<?php echo base_url() ?>template/system/css/icons.min.css" rel="stylesheet" type="text/css" />

@@ -145,7 +145,7 @@
                         <tr>
                             <th>Nama</th>
                             <th>:</th>
-                            <td><?= $value->tj_nama ?></td>
+                            <td><?= $value->tj_atas_nama ?></td>
                         </tr>
                         <tr>
                             <th>Telepon</th>

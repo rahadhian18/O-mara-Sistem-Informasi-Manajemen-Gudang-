@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Start your development with a Dashboard for Bootstrap 4.">
   <meta name="author" content="Creative Tim">
-  <title>O'MARA Login Pelanggan</title>
+  <title>DAZZLE HEAVEN</title>
   <!-- Favicon -->
   <link rel="icon" href="<?php echo base_url('assets/img/brand/favicon.png') ?>" type="image/png">
   <!-- Fonts -->
@@ -23,7 +23,7 @@
   <nav id="navbar-main" class="navbar navbar-horizontal navbar-transparent navbar-main navbar-expand-lg navbar-light">
     <div class="container">
       <a class="navbar-brand" href="dashboard.html">
-        <img src="<?php echo base_url('assets/img/brand/white.png') ?>">
+        <img src="<?php echo base_url('assets/img/brand/logoungu.png') ?>">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -33,7 +33,7 @@
           <div class="row">
             <div class="col-6 collapse-brand">
               <a href="dashboard.html">
-                <img src="<?php echo base_url('assets/img/brand/blue.png') ?>">
+                <img src="<?php echo base_url('assets/img/brand/logoungu.png') ?>">
               </a>
             </div>
             <div class="col-6 collapse-close">
@@ -62,7 +62,7 @@
               <div class="header-body text-center mb-7">
                 <div class="row justify-content-center">
                   <div class="col-xl-5 col-lg-6 col-md-8 px-5">
-                    <h1 class="text-white">Welcome O'MARA!</h1>
+                    <h1 class="text-white">Welcome DAZZLE HEAVEN</h1>
                     <p class="text-lead text-white">Use these awesome forms to login or create new account in your project for free.</p>
                   </div>
                 </div>
@@ -131,7 +131,7 @@
       <div class="row align-items-center justify-content-xl-between">
         <div class="col-xl-6">
           <div class="copyright text-center text-xl-left text-muted">
-            &copy; 2022 <a href="https://www.creative-tim.com" class="font-weight-bold ml-1" target="_blank">O'MARA Clothing Store</a>
+            &copy; 2022 <a href="https://www.creative-tim.com" class="font-weight-bold ml-1" target="_blank">DAZZLE HEAVEN</a>
           </div>
         </div>
       </div>

@@ -84,7 +84,7 @@
                                             <div class="col-sm-6">
                                                 <div class="form-group">
                                                     <label>Nama</label>
-                                                    <input type="text" class="form-control" name="tj_nama">
+                                                    <input type="text" class="form-control" name="tj_atas_nama">
                                                 </div>
                                             </div>
                                             <div class="col-sm-6">

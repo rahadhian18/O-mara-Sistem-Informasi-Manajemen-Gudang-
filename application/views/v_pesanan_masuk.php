@@ -52,7 +52,7 @@
                                                         <td><?php echo $no++ ?></td>
                                                         <td><?php echo $value->tj_id ?></td>
                                                         <td><?php echo $value->tj_tanggal ?></td>
-                                                        <td class="text-center"> <?php echo $value->tj_nama ?></td>
+                                                        <td class="text-center"> <?php echo $value->tj_atas_nama ?></td>
                                                         <td><b>Rp <?php echo number_format( $value->tj_total, 0, ',', '.') ?></b></td>
                                                         <td class="text-center">
                                                             <span class="badge bg-success">Sudah Bayar</span> <br>
@@ -71,7 +71,7 @@
                                                                 <td><?php echo $no++ ?></td>
                                                                 <td><?php echo $value->tj_id ?></td>
                                                                 <td><?php echo $value->tj_tanggal ?></td>
-                                                                <td class="text-center"> <?php echo $value->tj_nama ?></td>
+                                                                <td class="text-center"> <?php echo $value->tj_atas_nama ?></td>
                                                                 <td><b>Rp <?php echo number_format( $value->tj_total, 0, ',', '.') ?></b></td>
                                                                 <td class="text-center">
                                                                     <span class="badge bg-danger">Belum Bayar</span>
@@ -109,7 +109,7 @@
                                                         <td><?php echo $no++ ?></td>
                                                         <td><?php echo $value->tj_id ?></td>
                                                         <td><?php echo $value->tj_tanggal ?></td>
-                                                        <td class="text-center"> <?php echo $value->tj_nama ?></td>
+                                                        <td class="text-center"> <?php echo $value->tj_atas_nama ?></td>
                                                         <td><b>Rp <?php echo number_format( $value->tj_total, 0, ',', '.') ?></b></td>
                                                         <td class="text-center">
                                                             <span class="badge bg-success">Sedang Dikemas</span> <br>
@@ -154,7 +154,7 @@
                                                         <td><?php echo $value->tj_id ?></td>
                                                         <td><?php echo $value->tj_resi ?></td>
                                                         <td><?php echo $value->tj_tanggal ?></td>
-                                                        <td class="text-center"> <?php echo $value->tj_nama ?></td>
+                                                        <td class="text-center"> <?php echo $value->tj_atas_nama ?></td>
                                                         <td><b>Rp <?php echo number_format( $value->tj_total, 0, ',', '.') ?></b></td>
                                                         <td class="text-center">
                                                             <span class="badge bg-success"><i class="fa fa-truck">&nbsp;</i></span> <br>
@@ -193,7 +193,7 @@
                                                         <td><?php echo $value->tj_id ?></td>
                                                         <td><?php echo $value->tj_resi ?></td>
                                                         <td><?php echo $value->tj_tanggal ?></td>
-                                                        <td class="text-center"> <?php echo $value->tj_nama ?></td>
+                                                        <td class="text-center"> <?php echo $value->tj_atas_nama ?></td>
                                                         <td><b>Rp <?php echo number_format( $value->tj_total, 0, ',', '.') ?></b></td>
                                                         <td class="text-center">
                                                             <span class="badge bg-warning">Belum Konfirmasi</span><br>
@@ -206,7 +206,7 @@
                                                                 <td><?php echo $value->tj_id ?></td>
                                                                 <td><?php echo $value->tj_resi ?></td>
                                                                 <td><?php echo $value->tj_tanggal ?></td>
-                                                                <td class="text-center"> <?php echo $value->tj_nama ?></td>
+                                                                <td class="text-center"> <?php echo $value->tj_atas_nama ?></td>
                                                                 <td><b>Rp <?php echo number_format( $value->tj_total, 0, ',', '.') ?></b></td>
                                                                 <td class="text-center">
                                                                     <span class="badge bg-success">Selesai</span>
@@ -285,7 +285,7 @@
                         <tr>
                             <th>Nama</th>
                             <th>:</th>
-                            <th><?= $value->tj_nama ?></th>
+                            <th><?= $value->tj_atas_nama ?></th>
                         </tr>
                         <tr>
                             <th>Alamat</th>

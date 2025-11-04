@@ -53,7 +53,7 @@
             foreach ($filter as $row) : ?>
                 <tr>
                     <td><?php echo $no++; ?></td>
-                    <td><?php echo $row->tj_nama ?></td>
+                    <td><?php echo $row->tj_atas_nama ?></td>
                     <td><?php echo $row->tj_tanggal?></td>
                     <td style="text-align: right;"><?php echo "Rp" . number_format($row->tj_total, 2, ',', '.') ?></td>
                 </tr>

@@ -1,11 +1,11 @@
--- phpMyAdmin SQL Dump
--- version 5.1.1
--- https://www.phpmyadmin.net/
---
--- Host: 127.0.0.1
--- Generation Time: Jun 15, 2025 at 10:16 AM
--- Server version: 10.4.22-MariaDB
--- PHP Version: 7.4.27
+ phpMyAdmin SQL Dump
+ version 5.1.1
+ https://www.phpmyadmin.net/
+
+ Host: 127.0.0.1
+ Generation Time: Jun 15, 2025 at 10:16 AM
+ Server version: 10.4.27-MariaDB
+ PHP Version: 7.4.33
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -339,7 +339,7 @@ CREATE TABLE `tb_tr_jual` (
   `tj_id` varchar(10) NOT NULL,
   `id_pelanggan` int(11) NOT NULL,
   `tj_tanggal` date NOT NULL,
-  `tj_nama` varchar(50) NOT NULL,
+  `tj_atas_nama` varchar(50) NOT NULL,
   `tj_alamat` varchar(255) NOT NULL,
   `tj_jarak` int(11) NOT NULL,
   `tj_ongkir` int(11) NOT NULL,
@@ -398,7 +398,7 @@ CREATE TABLE `trpemesanan` (
   `tj_id` varchar(10) NOT NULL,
   `id_pelanggan` int(11) NOT NULL,
   `tj_tanggal` date NOT NULL,
-  `tj_nama` varchar(100) NOT NULL,
+  `tj_atas_nama` varchar(100) NOT NULL,
   `tj_alamat` text NOT NULL,
   `tj_jarak` varchar(10) DEFAULT NULL,
   `tj_ongkir` decimal(10,2) DEFAULT 0.00,

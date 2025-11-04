@@ -123,7 +123,7 @@ class Dashboardpelanggan extends CI_Controller {
                 'tj_id'         => $kodeID.$id,
                 'id_pelanggan'  => $this->input->post('id_pelanggan'),
 				'tj_tanggal'    => date('Y-m-d'),
-				'tj_nama'     	=> $this->input->post('tj_nama'),
+				'tj_atas_nama'     	=> $this->input->post('tj_atas_nama'),
 				'tj_alamat'     => $this->input->post('tj_alamat'),
 				'tj_jarak'     	=> '20',
 				'tj_ongkir'     => '100000',

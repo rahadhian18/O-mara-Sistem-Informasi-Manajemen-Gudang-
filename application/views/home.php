@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Start your development with a Dashboard for Bootstrap 4.">
   <meta name="author" content="Creative Tim">
-  <title>O'MARA Clothing Store</title>
+  <title>DAZZLE HEAVEN</title>
   <!-- Favicon -->
   <link rel="icon" href="assets/img/brand/favicon.png" type="image/png">
   <!-- Fonts -->
@@ -25,7 +25,7 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
     <div class="container">
    
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">O'mara</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">DAZZLE HEAVEN</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -44,8 +44,8 @@
 
   <header class="bg-primary text-white">
     <div class="container text-center">
-      <h1>SELAMAT DATANG DI O'MARA</h1>
-      <p class="lead">Ubah Fashionmu bersama O'MARA</p>
+      <h1>SELAMAT DATANG DI DAZZLE HEAVEN</h1>
+      <p class="lead">Ubah Fashionmu bersama DAZZLE HEAVEN</p>
     </div>
   </header>
 
@@ -54,7 +54,7 @@
       <div class="row">
         <div class="col-lg-8 mx-auto">
           <h2>Tentang</h2>
-          <p class="lead">O'MARA adalah sebuah aplikasi web sebagai pusat fashion online tenama di Indonesia. O'MARA menawarkan kombinasi produk fashion terkini untuk setiap gaya personal yang beragam.</p>
+          <p class="lead">DAZZLE HEAVEN adalah sebuah aplikasi web sebagai pusat fashion online tenama di Indonesia. DAZZLE HEAVEN menawarkan kombinasi produk fashion terkini untuk setiap gaya personal yang beragam.</p>
         </div>
       </div>
     </div>
@@ -68,13 +68,13 @@
     </ol>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img class="d-block w-100" src="<?= base_url() ?>assets/slides/slide1.jpg">
+            <img class="d-block w-100" src="<?= base_url() ?>assets/slides/slideori1.jpg">
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100" src="<?= base_url() ?>assets/slides/slide2.jpg">
+            <img class="d-block w-100" src="<?= base_url() ?>assets/slides/slideori2.jpg">
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100" src="<?= base_url() ?>assets/slides/slide3.jpg">
+            <img class="d-block w-100" src="<?= base_url() ?>assets/slides/slideori3.jpg">
         </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -94,7 +94,7 @@
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; 2022 O'MARA</p>
+      <p class="m-0 text-center text-white">Copyright &copy; 2025 DAZZLE HEAVEN</p>
     </div>
     <!-- /.container -->
   </footer>
